@@ -10,7 +10,9 @@
 
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&family=Roboto:wght@400;700&display=swap');
+
   @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+
 
 
 * {
@@ -47,6 +49,25 @@ body {
     right: 0;
     z-index: 0;
     opacity: 1;
+    padding: 0 2rem;
+}
+
+.padd-16 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    position: relative;
 }
 
 /* Aside */
@@ -84,7 +105,7 @@ aside .logo a {
 }
 
 aside .logo a span {
-    font-family: "Clicker Script", cursive;
+    font-family: 'Clicker Script', cursive;
     font-size: 2.5rem;
 }
 
@@ -181,4 +202,58 @@ aside nav li a.active {
 
 aside nav li a i {
     margin-right: 1rem;
+}
+
+
+/* home */
+
+.home {
+    min-height: 100vh;
+    display: flex;
+    color: var(--text-black-900);
+}
+
+.home .home-info {
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+
+h3.hello {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+h3.hello span {
+    font-family: 'Clicker Script', cursive;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--skin-color);
+}
+
+h3.my-profession {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.typing {
+    color: var(--skin-color);
+}
+
+.home-info p {
+    margin-bottom: 4rem;
+    font-size: 1.25rem;
+    color: var(--text-black-700);
+}
+
+.home .home-img {
+    flex: 0 0 40%;
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+ 
+}
+
+.home .home-img img {
+    height: 400px;
+
 }

@@ -4,10 +4,13 @@
     --bg-black-50: #e8dfec;
     --text-black-900: #302e4d;
     --text-black-700: #504e70;
+
+    --skin-color: #c61919;
 }
 
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&family=Roboto:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
 
 
 * {
@@ -70,4 +73,38 @@ aside .logo {
     text-transform: capitalize;
 }
 
+
+aside .logo a {
+    color: var(--text-black-700);
+    font-weight: 700;
+    padding: 1rem 1.25rem;
+    font-size: 2rem;
+    letter-spacing: 6px;
+}
+
+aside .logo a span {
+    font-family: "Clicker Script", cursive;
+    font-size: 2.5rem;
+}
+
+aside .logo a::before {
+    content: "";
+    position: absolute;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-bottom: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color);
+    bottom: 0;
+    left: 0;
+}
+aside .logo a::after {
+    content: "";
+    position: absolute;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-top: 5px solid var(--skin-color);
+    border-right: 5px solid var(--skin-color);
+    top: 0;
+    right: 0;
+}
 

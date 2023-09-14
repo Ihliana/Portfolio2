@@ -373,7 +373,7 @@ h3.my-profession {
     flex: 0 0 60%;
     max-width: 60%;
     margin-top: 2.5rem;
-    background-color: green;
+  
 }
 
 .about .personal-info .info-item {
@@ -395,10 +395,61 @@ h3.my-profession {
 }
 
 
+.about .buttons {
+    margin-top: 2rem;
+}
+
+.about .personal-info .btn {
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+
+/* skills section */
 
 .about .skills {
     flex: 0 0 40%;
     max-width: 40%;
     margin-top: 2.5rem;
-    background-color: blue;
+ 
+}
+
+.about .skills .skill-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 1.6rem;
+}
+
+.about .skills .skill-item h5 {
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
+
+.about .skills .skill-item .progress {
+    background-color: var(--bg-black-50);
+    height: 7px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+}
+
+.about .skills .skill-item .progress .progress-in {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+    background-color: var(--skin-color);
+}
+
+.about .about-content .skills .skill-item .skill-percent {
+    position: absolute;
+    right: 0;
+    color: var(--text-black-900);
+    top: -40px;
+    font-weight: 400;
+    line-height: 2.5rem;
 }

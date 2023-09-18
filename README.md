@@ -1,2 +1,6 @@
 # Portfolio2
- Another project how to create a portfolio
+ Another copy and learn project about how to create a portfolio.
+
+ HTML
+ CSS 
+ JavaScript

@@ -640,3 +640,50 @@ h3.my-profession {
     display: block;
 }
 
+
+/* Contact */
+.contact-title {
+    color: var(--skin-color);
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 1.25rem;
+}
+
+.contact-sub-title {
+    color: var(--text-black-900);
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+}
+
+.contact .contact-info-item {
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.contact .contact-info-item .icon {
+    display: inline-block;
+}
+
+.contact .contact-info-item .icon .fa {
+    font-size: 25px;
+    color: var(--skin-color);
+}
+
+.contact .contact-info-item h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+    margin: 1rem 0 5px
+}
+
+.contact .contact-info-item p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--text-black-700);
+    font-weight: 400;
+}
